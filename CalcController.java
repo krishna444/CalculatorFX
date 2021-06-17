@@ -70,7 +70,7 @@ public class CalcController implements Initializable {
         if (event.getSource() instanceof Button) {
             String id = ((Button) event.getSource()).getId();
             if (id.equals("button0")) {
-                this.calcHelper.
+                this.display("0");
             } else if (id.equals("button1")) {
                 this.display("1");
             } else if (id.equals("button2")) {
